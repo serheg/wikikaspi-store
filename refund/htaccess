@@ -1,0 +1,187 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page39257005.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^index$ page36565298.html [NC]
+RewriteRule ^index/$ page36565298.html [NC]
+
+RewriteRule ^kabinet$ page36526394.html [NC]
+RewriteRule ^kabinet/$ page36526394.html [NC]
+
+RewriteRule ^11$ page36530467.html [NC]
+RewriteRule ^11/$ page36530467.html [NC]
+
+RewriteRule ^eng$ page39147344.html [NC]
+RewriteRule ^eng/$ page39147344.html [NC]
+
+RewriteRule ^proekstroy$ page39972208.html [NC]
+RewriteRule ^proekstroy/$ page39972208.html [NC]
+
+RewriteRule ^main$ page39257005.html [NC]
+RewriteRule ^main/$ page39257005.html [NC]
+
+RewriteRule ^winkz$ page38516404.html [NC]
+RewriteRule ^winkz/$ page38516404.html [NC]
+
+RewriteRule ^login$ page38617075.html [NC]
+RewriteRule ^login/$ page38617075.html [NC]
+
+RewriteRule ^12$ page36531213.html [NC]
+RewriteRule ^12/$ page36531213.html [NC]
+
+RewriteRule ^13$ page36535366.html [NC]
+RewriteRule ^13/$ page36535366.html [NC]
+
+RewriteRule ^14$ page36535611.html [NC]
+RewriteRule ^14/$ page36535611.html [NC]
+
+RewriteRule ^15$ page36535761.html [NC]
+RewriteRule ^15/$ page36535761.html [NC]
+
+RewriteRule ^16$ page36535910.html [NC]
+RewriteRule ^16/$ page36535910.html [NC]
+
+RewriteRule ^21$ page36536046.html [NC]
+RewriteRule ^21/$ page36536046.html [NC]
+
+RewriteRule ^22$ page36536169.html [NC]
+RewriteRule ^22/$ page36536169.html [NC]
+
+RewriteRule ^23$ page36536368.html [NC]
+RewriteRule ^23/$ page36536368.html [NC]
+
+RewriteRule ^24$ page36536550.html [NC]
+RewriteRule ^24/$ page36536550.html [NC]
+
+RewriteRule ^25$ page36536653.html [NC]
+RewriteRule ^25/$ page36536653.html [NC]
+
+RewriteRule ^26$ page36536777.html [NC]
+RewriteRule ^26/$ page36536777.html [NC]
+
+RewriteRule ^27$ page36536896.html [NC]
+RewriteRule ^27/$ page36536896.html [NC]
+
+RewriteRule ^32$ page36537334.html [NC]
+RewriteRule ^32/$ page36537334.html [NC]
+
+RewriteRule ^33$ page36537503.html [NC]
+RewriteRule ^33/$ page36537503.html [NC]
+
+RewriteRule ^34$ page36537715.html [NC]
+RewriteRule ^34/$ page36537715.html [NC]
+
+RewriteRule ^short$ page36575654.html [NC]
+RewriteRule ^short/$ page36575654.html [NC]
+
+RewriteRule ^offer$ page37916699.html [NC]
+RewriteRule ^offer/$ page37916699.html [NC]
+
+RewriteRule ^tariff$ page37917427.html [NC]
+RewriteRule ^tariff/$ page37917427.html [NC]
+
+RewriteRule ^policy$ page37918048.html [NC]
+RewriteRule ^policy/$ page37918048.html [NC]
+
+RewriteRule ^permission2$ page37918975.html [NC]
+RewriteRule ^permission2/$ page37918975.html [NC]
+
+RewriteRule ^footer$ page37927430.html [NC]
+RewriteRule ^footer/$ page37927430.html [NC]
+
+RewriteRule ^subs$ page37928019.html [NC]
+RewriteRule ^subs/$ page37928019.html [NC]
+
+RewriteRule ^refund$ page37928270.html [NC]
+RewriteRule ^refund/$ page37928270.html [NC]
+
+RewriteRule ^isweepkz$ page38514909.html [NC]
+RewriteRule ^isweepkz/$ page38514909.html [NC]
+
+RewriteRule ^ipshone$ page36981831.html [NC]
+RewriteRule ^ipshone/$ page36981831.html [NC]
+
+RewriteRule ^iphonekz$ page36994276.html [NC]
+RewriteRule ^iphonekz/$ page36994276.html [NC]
+
+RewriteRule ^error$ page38619522.html [NC]
+RewriteRule ^error/$ page38619522.html [NC]
+
+RewriteRule ^header$ page38867610.html [NC]
+RewriteRule ^header/$ page38867610.html [NC]
+
+RewriteRule ^terms$ page39148683.html [NC]
+RewriteRule ^terms/$ page39148683.html [NC]
+
+RewriteRule ^price$ page39148875.html [NC]
+RewriteRule ^price/$ page39148875.html [NC]
+
+RewriteRule ^privacy$ page39149115.html [NC]
+RewriteRule ^privacy/$ page39149115.html [NC]
+
+RewriteRule ^data$ page39149168.html [NC]
+RewriteRule ^data/$ page39149168.html [NC]
+
+RewriteRule ^refundrequest$ page39149353.html [NC]
+RewriteRule ^refundrequest/$ page39149353.html [NC]
+
+RewriteRule ^cancel$ page39149548.html [NC]
+RewriteRule ^cancel/$ page39149548.html [NC]
+
+RewriteRule ^legexvhod$ page39257027.html [NC]
+RewriteRule ^legexvhod/$ page39257027.html [NC]
+
+RewriteRule ^legex-offer$ page39260286.html [NC]
+RewriteRule ^legex-offer/$ page39260286.html [NC]
+
+RewriteRule ^legex-tariff$ page39260290.html [NC]
+RewriteRule ^legex-tariff/$ page39260290.html [NC]
+
+RewriteRule ^legex-policy$ page39260295.html [NC]
+RewriteRule ^legex-policy/$ page39260295.html [NC]
+
+RewriteRule ^legex-permission$ page39260302.html [NC]
+RewriteRule ^legex-permission/$ page39260302.html [NC]
+
+RewriteRule ^legex-subs$ page39260308.html [NC]
+RewriteRule ^legex-subs/$ page39260308.html [NC]
+
+RewriteRule ^legex-refund$ page39260312.html [NC]
+RewriteRule ^legex-refund/$ page39260312.html [NC]
+
+RewriteRule ^start$ page39261019.html [NC]
+RewriteRule ^start/$ page39261019.html [NC]
+
+RewriteRule ^refunden$ page39261028.html [NC]
+RewriteRule ^refunden/$ page39261028.html [NC]
+
+RewriteRule ^cancel-en$ page39261034.html [NC]
+RewriteRule ^cancel-en/$ page39261034.html [NC]
+
+RewriteRule ^esponja$ page40352870.html [NC]
+RewriteRule ^esponja/$ page40352870.html [NC]
+
+RewriteRule ^legex-en-policy$ page40437096.html [NC]
+RewriteRule ^legex-en-policy/$ page40437096.html [NC]
+
+RewriteRule ^legex-en-offer$ page40437170.html [NC]
+RewriteRule ^legex-en-offer/$ page40437170.html [NC]
+
+RewriteRule ^legex-en-price$ page40437229.html [NC]
+RewriteRule ^legex-en-price/$ page40437229.html [NC]
+
+RewriteRule ^herohunter$ page40563369.html [NC]
+RewriteRule ^herohunter/$ page40563369.html [NC]
+
+RewriteRule ^1$ page7992828.html [NC]
+RewriteRule ^1/$ page7992828.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
